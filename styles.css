@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(/Pictures/5130021.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.signin-box {
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    max-width: 400px;
+    margin: 20px;
+}
+
+.signin-box h2,
+.signin-box h3 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-container {
+    margin-top: 15px;
+}
+
+.input {
+    padding: 12px 0; /* Adjust padding to give space for the line underneath */
+    border: none;
+    border-bottom: 2px solid #007bff; /* Add colored line at the bottom */
+    width: 100%;
+    background-color: transparent; /* Remove background */
+}
+
+.password-container {
+    position: relative;
+}
+
+.toggle-password {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: rgb(0, 174, 255);
+    color: #ccc;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.remember-me {
+    margin-top: 15px;
+}
+
+.forgot-link {
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+.forgot-link:hover {
+    text-decoration: underline;
+}
