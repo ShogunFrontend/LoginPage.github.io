@@ -5,7 +5,8 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-image: url(/Pictures/5130021.jpg);
+  background-color: #333;
+  background-image: url();
   background-size: cover;
   }
   
@@ -91,7 +92,7 @@ body {
     border-radius: 5px;
     background: linear-gradient(90deg, #007bff, #00adf2, #32a5db, #62a2de);
     background-size: 300% 100%;
-    animation: glowing 2s infinite;
+    animation: glowing 6s infinite;
   }
   
   .glow-on-hover:before {
@@ -122,6 +123,7 @@ body {
 
   .forgot-links{
     margin-top: 20px;
+    position: relative;
   }
 
   .forgot-links a {
